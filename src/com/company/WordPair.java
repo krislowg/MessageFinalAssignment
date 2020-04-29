@@ -28,7 +28,7 @@ public class WordPair {
    * @throws IOException
    */
   public void createBigram(String messagePath) throws IOException {
-    Path msgPath = Paths.get("./src/messages.txt");
+    Path msgPath = Paths.get(messagePath);
 
     Stream<String> msgLines = Files.lines(msgPath).filter(line -> !line.isEmpty());
     // Then amend our earlier example by adding a split & flatMapping our Arrays
