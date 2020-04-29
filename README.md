@@ -1,6 +1,6 @@
-# MessageFinalAssignment
+# Final Assignment COP 3710
 
-Word Suggestion Engine<br /> 
+Word Suggestion Engine 
 Determine the confidence and support of each word pair (bigram) <br /> 
 Ask user for word (as if they were typing it)<br /> 
 Build a List of possible "next words" at least 3 words in length <br /> 
